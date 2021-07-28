@@ -1,0 +1,11 @@
+{
+  "name": "unit-6-node-and-express-portfolio",
+  "version": "1.0.0",
+  "description": "static node and express site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dishanta Kpatrick",
+  "license": "ISC"
+}
