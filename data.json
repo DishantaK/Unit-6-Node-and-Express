@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+        "id": 0,
+        "project_name": "Data Pagination and Filtering",
+        "description": "Project for unit 2. Filtering Data",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://dishantak.github.io/Unit-2-Data-Pagination-and-filtering/",
+        "github_link": "https://github.com/DishantaK/Unit-2-Data-Pagination-and-filtering",
+        "image_urls": ["/static/images/unit2a.jpg", "/static/images/unit2b.jpg"]
+        },
+        {
+        "id": 1,
+        "project_name": "Interactive Form",
+        "description": "Interactive Web form using HTML, CSS, JS. Featuring client side validation and REGEX",
+        "technologies": ["HTML", "CSS", "Javascript", "RegEx"],
+        "live_link": "https://dishantak.github.io/Unit-3--InteractiveForm/",
+        "github_link": "https://github.com/DishantaK/Unit-3--InteractiveForm",
+        "image_urls": ["/static/images/unit3a.jpg", "/static/images/unit3b.jpg"]
+        },
+        {
+        "id": 2,
+        "project_name": "Public API Requests",
+        "description": "An app for a fictional company called Awesome Startup that employees can use to share contact information with each other.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://dishantak.github.io/Unit-5---Public-API-Requests/",
+        "github_link": "https://github.com/DishantaK/Unit-5---Public-API-Requests",
+        "image_urls": ["/static/images/unit5a.jpg", "/static/images/unit5b.jpg"]
+        }
+    ]
+}
