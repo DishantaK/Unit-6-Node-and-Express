@@ -11,6 +11,8 @@ app.set('view engine', 'pug');
 app.set("views", path.join(__dirname, "views"));
 
 
+app.use('/static', express.static('public')) //Serves resources from public folder
+
 // Routes 
 app.get('/', function (req, res) {
      
@@ -27,27 +29,17 @@ app.get('/projects/:id', function (req, res) {
     // customize w/ object / come back to
   })
 
-  app.get('/', function (req, res) {
-     
-    res.render('index', {projects})
 
-
-  })
+ 
 
 
 
-  //Middleware
-  app.use('/static', express.static('public')) //Serves resources from public folder
 
-  app.use((req, res, next) => {
-    const error = new Error("Not found");
-    error.status = 404;
-    next(error);
-  });
-
-  app.use(function (error, req, res, next) {
-    console.log(error)
-    res.render("page-not-found");
+  //Middleware / Errors
+  
+  app.use(function (req, res, next) {
+    console.log("Apologies, but this page does not exist")
+    res.status(404).render("page-not-found");
   
 })
   

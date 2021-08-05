@@ -26,6 +26,24 @@
         "live_link": "https://dishantak.github.io/Unit-5---Public-API-Requests/",
         "github_link": "https://github.com/DishantaK/Unit-5---Public-API-Requests",
         "image_urls": ["/static/images/unit5a.jpg", "/static/images/unit5b.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Quote Generator",
+            "description": "An app that generates a random quote in response to a user event.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://dishantak.github.io/Quote-Generator/",
+            "github_link": "https://github.com/DishantaK/Quote-Generator",
+            "image_urls": ["/static/images/random1a.jpg", "/static/images/random25b.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Portfolio",
+            "description": "A JS portfolio using Node and Express",
+            "technologies": ["HTML", "CSS", "Javascript, Pug, Node, Express"],
+            "live_link": "./",
+            "github_link": "https://github.com/DishantaK/Unit-6-Node-and-Express",
+            "image_urls": ["/static/images/Portfolio6a.jpg", "/static/images/Portfolio6b.jpg"]
         }
     ]
 }
